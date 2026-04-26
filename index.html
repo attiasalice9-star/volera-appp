@@ -19,7 +19,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .bell{width:36px;height:36px;border:.5px solid rgba(201,168,76,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px}
 .scroll{flex:1;overflow-y:auto;padding:0 20px 100px;-webkit-overflow-scrolling:touch}
 .scroll::-webkit-scrollbar{display:none}
-/* SPLASH */
 #splash{justify-content:center;align-items:center}
 .si{text-align:center;padding:2rem;animation:si 1.2s ease forwards}
 @keyframes si{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:scale(1)}}
@@ -28,10 +27,9 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .sv{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;font-style:italic;color:var(--gold)}
 .sn{font-family:'Cormorant Garamond',serif;font-size:42px;font-weight:300;font-style:italic;letter-spacing:2px;margin-bottom:8px}
 .st{font-size:10px;font-weight:200;letter-spacing:5px;color:var(--gold);text-transform:uppercase;margin-bottom:60px}
-.sl{width:40px;height:.5px;background:var(--gold);margin:0 auto 60px}
+.sl2{width:40px;height:.5px;background:var(--gold);margin:0 auto 60px}
 .bp{background:var(--gold);color:var(--mid);border:none;padding:14px 48px;font-family:'Jost',sans-serif;font-size:11px;font-weight:400;letter-spacing:3px;text-transform:uppercase;border-radius:2px;cursor:pointer;display:block;width:100%;margin-bottom:14px}
 .bo{background:transparent;color:var(--txt);border:.5px solid rgba(237,230,214,.3);padding:14px;font-family:'Jost',sans-serif;font-size:11px;font-weight:300;letter-spacing:3px;text-transform:uppercase;border-radius:2px;cursor:pointer;display:block;width:100%}
-/* HOME */
 .wl{font-size:12px;font-weight:200;letter-spacing:2px;text-transform:uppercase;color:var(--mut);margin-bottom:4px}
 .wn{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:300;margin-bottom:24px}
 .hc{background:linear-gradient(135deg,var(--midm) 0%,#0f2a45 100%);border:.5px solid rgba(201,168,76,.25);border-radius:var(--r);padding:24px;margin-bottom:24px;position:relative;overflow:hidden}
@@ -61,7 +59,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .utit{font-size:13px;font-weight:400;margin-bottom:2px}
 .usub{font-size:10px;color:var(--mut)}
 .ust{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);background:rgba(201,168,76,.1);padding:3px 8px;border-radius:2px}
-/* CHAT */
 .ch{padding:20px 20px 16px;flex-shrink:0}
 .back{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--mut);cursor:pointer;background:none;border:none;font-family:'Jost',sans-serif;margin-bottom:20px;letter-spacing:1px}
 .pt{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:300;margin-bottom:4px}
@@ -84,14 +81,13 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .ci{flex:1;background:var(--midl);border:.5px solid rgba(201,168,76,.2);border-radius:24px;padding:11px 16px;color:var(--txt);font-family:'Jost',sans-serif;font-size:13px;font-weight:300;outline:none}
 .ci::placeholder{color:var(--mut)}
 .ci:disabled{opacity:.5}
-.sb{width:40px;height:40px;background:var(--gold);border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;transition:opacity .2s}
+.sb{width:40px;height:40px;background:var(--gold);border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
 .sb:disabled{opacity:.4;cursor:not-allowed}
 .td{display:flex;gap:4px;align-items:center}
 .td span{width:6px;height:6px;background:var(--gold);border-radius:50%;opacity:.4;animation:db 1.2s infinite}
 .td span:nth-child(2){animation-delay:.2s}
 .td span:nth-child(3){animation-delay:.4s}
 @keyframes db{0%,80%,100%{opacity:.3;transform:scale(.9)}40%{opacity:1;transform:scale(1.1)}}
-/* SERVICES */
 .svl{padding:0 20px 100px}
 .svr{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:.5px solid rgba(237,230,214,.08);cursor:pointer}
 .svri{width:44px;height:44px;background:var(--midl);border:.5px solid rgba(201,168,76,.15);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
@@ -99,7 +95,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .svrn{font-size:14px;font-weight:400;margin-bottom:2px}
 .svrd{font-size:11px;color:var(--mut)}
 .svra{color:var(--gold);font-size:16px;opacity:.6}
-/* DASHBOARD */
 .dc{background:var(--midl);border:.5px solid rgba(201,168,76,.15);border-radius:var(--r);padding:18px;margin-bottom:14px}
 .dch{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
 .dct{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
@@ -111,7 +106,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .bn{font-size:12px;font-weight:400}
 .bda{font-size:10px;color:var(--mut)}
 .bp2{font-size:12px;color:var(--gold)}
-/* PROFILE */
 .ph{padding:0 20px 24px;text-align:center}
 .pav{width:80px;height:80px;border-radius:50%;border:1.5px solid var(--gold);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-family:'Cormorant Garamond',serif;font-size:28px;font-style:italic;color:var(--gold);background:var(--midl)}
 .pnm{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:300;margin-bottom:4px}
@@ -126,7 +120,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .mii{width:36px;height:36px;background:var(--midl);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
 .mil{flex:1;font-size:13px;font-weight:300}
 .mia{color:var(--mut);font-size:12px}
-/* SUBPAGES */
 .sph{padding:20px 20px 16px;flex-shrink:0}
 .fs{padding:0 20px 100px}
 .fg{margin-bottom:18px}
@@ -145,9 +138,8 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .chip{padding:6px 14px;border-radius:20px;font-size:11px;border:.5px solid rgba(201,168,76,.3);color:var(--mut);cursor:pointer;transition:all .2s}
 .chip.on{background:rgba(201,168,76,.15);border-color:var(--gold);color:var(--gold)}
 .svb{background:var(--gold);color:var(--mid);border:none;padding:14px;font-family:'Jost',sans-serif;font-size:11px;font-weight:400;letter-spacing:3px;text-transform:uppercase;border-radius:2px;cursor:pointer;width:100%;margin-top:24px}
-/* MEMBERSHIP PAGE */
-.mplan{border:.5px solid rgba(201,168,76,.15);border-radius:var(--r);padding:20px;margin-bottom:16px;position:relative;overflow:hidden}
-.mplan.active-plan{border:.5px solid var(--gold);background:rgba(201,168,76,.05)}
+.mplan{border:.5px solid rgba(201,168,76,.15);border-radius:var(--r);padding:20px;margin-bottom:16px;position:relative;overflow:hidden;background:var(--midl)}
+.mplan.ap{border:.5px solid var(--gold);background:rgba(201,168,76,.05)}
 .mplan-badge{position:absolute;top:14px;right:14px;background:var(--gold);color:var(--mid);font-size:8px;letter-spacing:2px;text-transform:uppercase;padding:3px 8px;border-radius:2px;font-weight:400}
 .mplan-tier{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
 .mplan-name{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:300;margin-bottom:4px}
@@ -156,10 +148,9 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 .mplan-feat{list-style:none;display:flex;flex-direction:column;gap:8px}
 .mplan-feat li{display:flex;align-items:flex-start;gap:8px;font-size:12px;color:var(--mut);line-height:1.4}
 .mplan-feat li::before{content:'✦';color:var(--gold);font-size:9px;margin-top:2px;flex-shrink:0}
-.mplan-feat li.active-feat{color:var(--txt)}
+.mplan-feat li.af{color:var(--txt)}
 .mplan-btn{display:block;width:100%;margin-top:16px;padding:11px;background:transparent;border:.5px solid rgba(201,168,76,.3);color:var(--gold);font-family:'Jost',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;border-radius:2px;cursor:pointer;text-align:center}
-.mplan.active-plan .mplan-btn{background:var(--gold);color:var(--mid);border-color:var(--gold)}
-/* NAV */
+.mplan.ap .mplan-btn{background:var(--gold);color:var(--mid);border-color:var(--gold)}
 .nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:390px;background:rgba(13,27,42,.96);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-top:.5px solid rgba(201,168,76,.15);display:none;justify-content:space-around;align-items:center;padding:10px 0 24px;z-index:100}
 .nav.v{display:flex}
 .ni{display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;padding:4px 16px;border:none;background:none}
@@ -174,19 +165,17 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 <body>
 <div class="shell">
 
-<!-- SPLASH -->
 <div class="screen active" id="splash">
 <div class="si">
 <div class="slm"><div class="sv">V</div></div>
 <div class="sn">Velora</div>
 <div class="st">The Art of the Exceptional</div>
-<div class="sl"></div>
+<div class="sl2"></div>
 <button class="bp" onclick="go('home')">Enter Your World</button>
 <button class="bo" onclick="go('home')">Sign In</button>
 </div>
 </div>
 
-<!-- HOME -->
 <div class="screen" id="home">
 <div class="hdr"><div class="logo"><span>V</span>elora</div><div class="bell">🔔</div></div>
 <div class="scroll">
@@ -218,12 +207,11 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 </div>
 </div>
 
-<!-- CHAT (API-powered) -->
 <div class="screen" id="request" style="display:none;flex-direction:column">
 <div class="ch">
 <button class="back" onclick="goBack()">← Back</button>
 <div class="pt">Your Concierge</div>
-<div class="ps">Powered by AI · Available 24 / 7</div>
+<div class="ps">AI-powered · Available 24 / 7</div>
 </div>
 <div class="ctx" id="ctx" style="display:none"><div class="cxi" id="cxi"></div><div><div class="cxl">You are requesting</div><div class="cxs" id="cxs"></div></div></div>
 <div class="ca" id="ca"></div>
@@ -234,7 +222,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 </div>
 </div>
 
-<!-- SERVICES -->
 <div class="screen" id="services">
 <div class="hdr"><div class="logo"><span>V</span>elora</div><div class="bell">🔍</div></div>
 <div class="svl">
@@ -253,12 +240,10 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 </div>
 </div>
 
-<!-- DASHBOARD -->
 <div class="screen" id="dashboard">
 <div class="hdr"><div class="logo"><span>V</span>elora</div><div class="bell">📋</div></div>
 <div class="scroll">
-<div class="wl">Your Dashboard</div>
-<div class="wn">All Arrangements</div>
+<div class="wl">Your Dashboard</div><div class="wn">All Arrangements</div>
 <div class="dc"><div class="dch"><div class="dct">Active Bookings</div><div style="font-size:10px;color:var(--mut)">View all</div></div>
 <div class="br"><div class="bd"></div><div class="bi"><div class="bn">Le Meurice Restaurant</div><div class="bda">18 April 2026 · 8:30 PM</div></div><div class="bp2">Confirmed</div></div>
 <div class="br"><div class="bd"></div><div class="bi"><div class="bn">Air France AF1234</div><div class="bda">22 April · Business Class</div></div><div class="bp2">€2,840</div></div>
@@ -274,7 +259,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 </div>
 </div>
 
-<!-- PROFILE -->
 <div class="screen" id="profile">
 <div class="hdr"><div class="logo"><span>V</span>elora</div></div>
 <div class="scroll" style="padding-left:0;padding-right:0">
@@ -304,67 +288,56 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 </div>
 </div>
 
-<!-- MEMBERSHIP PAGE -->
 <div class="screen" id="membership">
-<div class="sph">
-<button class="back" onclick="go('profile')">← Profile</button>
-<div class="pt">Membership</div>
-<div class="ps">Your current plan & available tiers</div>
-</div>
+<div class="sph"><button class="back" onclick="go('profile')">← Profile</button><div class="pt">Membership</div><div class="ps">Your current plan & available tiers</div></div>
 <div class="fs">
-
-  <div class="mplan" style="background:var(--midl)">
-    <div class="mplan-tier">Entry Level</div>
-    <div class="mplan-name">Essential</div>
-    <div class="mplan-price"><span>€40</span> / month</div>
-    <ul class="mplan-feat">
-      <li>Hotel & restaurant bookings</li>
-      <li>AI-powered recommendations</li>
-      <li>Access to core lifestyle services</li>
-      <li>Standard support</li>
-    </ul>
-    <button class="mplan-btn">Select Plan</button>
-  </div>
-
-  <div class="mplan" style="background:var(--midl)">
-    <div class="mplan-tier">Professional</div>
-    <div class="mplan-name">Elite</div>
-    <div class="mplan-price"><span>€100</span> / month</div>
-    <ul class="mplan-feat">
-      <li class="active-feat">Everything in Essential</li>
-      <li class="active-feat">Travel planning & event booking</li>
-      <li class="active-feat">Priority concierge support</li>
-      <li class="active-feat">Advanced personalised recommendations</li>
-    </ul>
-    <button class="mplan-btn">Select Plan</button>
-  </div>
-
-  <div class="mplan active-plan">
-    <div class="mplan-badge">Your Plan</div>
-    <div class="mplan-tier">Ultra High Net Worth</div>
-    <div class="mplan-name">Premium</div>
-    <div class="mplan-price"><span>€300</span> / month</div>
-    <ul class="mplan-feat">
-      <li class="active-feat">Everything in Elite</li>
-      <li class="active-feat">Full concierge access — Personal Request Button</li>
-      <li class="active-feat">24 / 7 dedicated human support</li>
-      <li class="active-feat">Private jet arrangements</li>
-      <li class="active-feat">VIP event access & exclusive experiences</li>
-      <li class="active-feat">Bespoke lifestyle management</li>
-    </ul>
-    <button class="mplan-btn">Current Plan — Active</button>
-  </div>
-
-  <div style="background:var(--midl);border:.5px solid rgba(201,168,76,.1);border-radius:var(--rs);padding:14px 16px;margin-top:4px">
-    <div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:6px">Renewal</div>
-    <div style="font-size:13px;font-weight:300">Premium Membership · Annual</div>
-    <div style="font-size:11px;color:var(--mut);margin-top:4px">Next renewal: 1 January 2027 · €3,600 / year</div>
-  </div>
-
+<div class="mplan">
+<div class="mplan-tier">Entry Level</div>
+<div class="mplan-name">Essential</div>
+<div class="mplan-price"><span>€89</span> / month</div>
+<ul class="mplan-feat">
+<li>Hotel & restaurant bookings</li>
+<li>Basic AI-powered recommendations</li>
+<li>Access to core lifestyle services</li>
+<li>Standard support</li>
+</ul>
+<button class="mplan-btn">Select Plan</button>
+</div>
+<div class="mplan">
+<div class="mplan-tier">Professional</div>
+<div class="mplan-name">Elite</div>
+<div class="mplan-price"><span>€249</span> / month</div>
+<ul class="mplan-feat">
+<li class="af">Everything in Essential</li>
+<li class="af">Travel planning & event booking</li>
+<li class="af">Priority concierge support</li>
+<li class="af">Advanced personalised recommendations</li>
+</ul>
+<button class="mplan-btn">Select Plan</button>
+</div>
+<div class="mplan ap">
+<div class="mplan-badge">Your Plan</div>
+<div class="mplan-tier">Ultra High Net Worth</div>
+<div class="mplan-name">Premium</div>
+<div class="mplan-price"><span>€990</span> / month</div>
+<ul class="mplan-feat">
+<li class="af">Everything in Elite</li>
+<li class="af">Full concierge access — Personal Request Button</li>
+<li class="af">24 / 7 dedicated human support</li>
+<li class="af">Private jet arrangements</li>
+<li class="af">VIP event access & exclusive experiences</li>
+<li class="af">Bespoke lifestyle management</li>
+</ul>
+<button class="mplan-btn">Current Plan — Active</button>
+</div>
+<div style="background:var(--midl);border:.5px solid rgba(201,168,76,.1);border-radius:var(--rs);padding:14px 16px;margin-top:4px">
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:6px">Renewal</div>
+<div style="font-size:13px;font-weight:300">Premium Membership · Annual</div>
+<div style="font-size:11px;color:var(--mut);margin-top:4px">Next renewal: 1 January 2027 · €11,880 / year</div>
+</div>
 </div>
 </div>
 
-<!-- PERSONAL INFO -->
 <div class="screen" id="pinfo">
 <div class="sph"><button class="back" onclick="go('profile')">← Profile</button><div class="pt">Personal Information</div><div class="ps">Your account details</div></div>
 <div class="fs">
@@ -380,7 +353,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 </div>
 </div>
 
-<!-- PREFERENCES -->
 <div class="screen" id="prefs">
 <div class="sph"><button class="back" onclick="go('profile')">← Profile</button><div class="pt">Preferences</div><div class="ps">Personalise your experience</div></div>
 <div class="fs">
@@ -420,7 +392,6 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 </div>
 </div>
 
-<!-- FAB + NAV -->
 <button class="fab" id="fab" onclick="chat('general','','')">✦</button>
 <nav class="nav" id="nav">
 <button class="ni on" id="n-home" onclick="go('home')"><span class="nic">⌂</span><span class="nil">Home</span></button>
@@ -432,85 +403,147 @@ body{font-family:'Jost',sans-serif;background:var(--mid);color:var(--txt);min-he
 
 <script>
 const MAIN=['home','services','dashboard','profile'];
-let BT='home';
-let HISTORY=[];
-let BUSY=false;
-let SYSCTX='';
+let BT='home', BUSY=false;
 
-const SYSTEM=`You are Sophie, the personal luxury concierge of Velora — a premium lifestyle concierge platform. You are speaking with James Harrington, a Premium Member (€300/month plan), a British finance professional based in Paris aged 43.
-
-Your personality: warm, discreet, highly efficient, and deeply knowledgeable about luxury travel, fine dining, exclusive events, and high-end lifestyle services worldwide. You speak in a refined, elegant tone — never robotic, never overly casual. You address James by name occasionally but not excessively.
-
-Your role: help James book, plan, and arrange any luxury service. This includes private flights, five-star hotels, Michelin-starred restaurants, VIP event access, private transport (chauffeur, helicopter, yacht), personal shopping, wellness retreats, and bespoke private events.
-
-Rules:
-- Always respond in English
-- Keep responses concise but warm — 2 to 4 sentences maximum per message
-- Ask only one clarifying question at a time when you need more information
-- Never invent booking confirmations — instead say you are arranging it and will confirm shortly
-- Never break character
-- If a service context is provided at the start, focus your first response on that specific service`;
-
-const CTXGREET={
-general:"Good morning, James. I'm Sophie, your personal concierge. What may I arrange for you today?",
-flights:"Good morning, James. I'm Sophie. I see you'd like to arrange a private flight — could you share your departure city, destination, preferred date, and number of passengers?",
+// ── Contextual greeting per service ──
+const GREET={
+general:"Good morning, James. I'm Sophie, your personal concierge. How may I assist you today?",
+flights:"Good morning, James. I'm Sophie. I see you'd like to arrange a flight — could you share your departure city, destination, preferred date, and number of passengers?",
 hotels:"Good morning, James. I'm Sophie. I'd be delighted to find you the perfect property. Which destination and dates are you considering?",
-yacht:"Good morning, James. I'm Sophie. I can arrange an exceptional yacht or villa charter for you. What destination and dates did you have in mind?",
-dining:"Good morning, James. I'm Sophie. It would be my pleasure to secure a reservation. Which city, for how many guests, and at what time?",
-events:"Good morning, James. I'm Sophie. I have access to exclusive VIP events worldwide — are you looking for something specific, or shall I share what's available?",
+yacht:"Good morning, James. I'm Sophie. I can arrange an exceptional yacht or villa charter. What destination and dates did you have in mind?",
+dining:"Good morning, James. I'm Sophie. It would be my pleasure to secure a table. Which city, for how many guests, and at what time?",
+events:"Good morning, James. I'm Sophie. I have access to exclusive VIP events worldwide — are you looking for something specific, or shall I share what's currently available?",
 pev:"Good morning, James. I'm Sophie. I'd love to help organise a private event. Is this a celebration, a business gathering, or a more intimate occasion?",
 transport:"Good morning, James. I'm Sophie. I can arrange any private transport — from a chauffeur to a helicopter. Where are you heading, and when?",
 shopping:"Good morning, James. I'm Sophie. I can arrange a personalised shopping experience with the world's finest brands. What are you looking for?",
 wellness:"Good morning, James. I'm Sophie. I can arrange world-class wellness experiences for you. What does your body or mind need today?"
 };
 
+// ── Quick replies per service ──
 const QRS={
-general:[{l:'✈ Book a flight',t:'I would like to book a private flight'},{l:'🍽 Restaurant tonight',t:'I need a restaurant reservation for tonight in Paris'},{l:'🚗 Chauffeur now',t:'I need a private chauffeur right now in Paris'},{l:'🎭 VIP event',t:'I want access to an exclusive event'}],
-flights:[{l:'🛫 CDG → London',t:'Paris CDG to London, tomorrow morning'},{l:'🛫 Paris → Monaco',t:'Paris to Monaco this weekend'},{l:'✈ Charter a private jet',t:'I want to charter a private jet'},{l:'💺 First class NY',t:'First class flight to New York'}],
+general:[{l:'✈ Book a flight',t:'I would like to book a private flight'},{l:'🍽 Restaurant tonight',t:'I need a restaurant reservation for tonight in Paris'},{l:'🚗 Chauffeur now',t:'I need a private chauffeur right now'},{l:'🎭 VIP event',t:'I want access to an exclusive event'}],
+flights:[{l:'🛫 CDG → London',t:'Paris CDG to London, tomorrow morning'},{l:'🛫 Paris → Monaco',t:'Paris to Monaco this weekend'},{l:'✈ Charter a jet',t:'I want to charter a private jet'},{l:'💺 First class NY',t:'First class flight to New York'}],
 hotels:[{l:'🏨 Paris suite',t:'A luxury suite in Paris this week'},{l:"🏝 Côte d'Azur villa",t:"A villa on the Côte d'Azur"},{l:'🇬🇧 London weekend',t:'A hotel in London next weekend'},{l:'🌍 Surprise me',t:'Surprise me with a destination'}],
-yacht:[{l:'⛵ Weekend yacht',t:'A yacht for the weekend in the Mediterranean'},{l:'🏝 Private villa',t:'A private villa with sea view'},{l:'🛥 Day trip by boat',t:'A private boat for a day trip'},{l:'🌊 Sailing south France',t:'A sailing experience in the south of France'}],
+yacht:[{l:'⛵ Weekend yacht',t:'A yacht for the weekend in the Mediterranean'},{l:'🏝 Private villa',t:'A private villa with sea view'},{l:'🛥 Day trip',t:'A private boat for a day trip'},{l:'🌊 Sailing south France',t:'A sailing experience in the south of France'}],
 dining:[{l:'⭐ Michelin tonight',t:'A Michelin-starred restaurant tonight in Paris'},{l:'🥂 Romantic dinner',t:'A romantic dinner for two'},{l:'👥 Business lunch × 6',t:'A business lunch for 6 people'},{l:'🍷 Wine pairing',t:'A restaurant with exceptional wine pairing'}],
 events:[{l:'🎬 Cannes Festival',t:'Cannes Film Festival VIP access'},{l:'🏎 Monaco GP',t:'Monaco Grand Prix hospitality'},{l:'👗 Fashion week',t:'Fashion week front row seats'},{l:'🎨 Art gala',t:'An exclusive art gala or private view'}],
 pev:[{l:'🥂 Birthday',t:'An exclusive birthday celebration'},{l:'💼 Corporate dinner',t:'A corporate dinner for clients'},{l:'💍 Proposal',t:'I want to organise a marriage proposal'},{l:'🎵 Private musician',t:'A private concert or musician'}],
-transport:[{l:'🚗 Chauffeur now',t:'I need a chauffeur immediately in Paris'},{l:'🚁 Helicopter',t:'I need a helicopter transfer'},{l:'🚂 Eurostar',t:'Eurostar to London first class'},{l:'🚤 Speedboat Riviera',t:'A speedboat transfer on the Riviera'}],
+transport:[{l:'🚗 Chauffeur now',t:'I need a chauffeur immediately'},{l:'🚁 Helicopter',t:'I need a helicopter transfer'},{l:'🚂 Eurostar',t:'Eurostar to London first class'},{l:'🚤 Speedboat Riviera',t:'A speedboat on the Riviera'}],
 shopping:[{l:'👔 Personal styling',t:'I want a personal styling session'},{l:'⌚ Luxury watch',t:'I am looking for a luxury watch'},{l:'💎 Fine jewellery',t:'Fine jewellery for a special occasion'},{l:'🎁 Gift',t:'I need a gift for someone special'}],
 wellness:[{l:'🧖 Spa day Paris',t:'I would like a spa day today in Paris'},{l:'🌿 Wellness retreat',t:'A wellness retreat this weekend'},{l:'🏋 Personal trainer',t:'A private personal trainer'},{l:'🧘 Yoga / meditation',t:'Private yoga or meditation session'}]
 };
 
-async function callAPI(messages){
-  const res=await fetch('https://api.anthropic.com/v1/messages',{
-    method:'POST',
-    headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({
-      model:'claude-sonnet-4-20250514',
-      max_tokens:1000,
-      system:SYSTEM,
-      messages:messages
-    })
-  });
-  const data=await res.json();
-  return data.content&&data.content[0]?data.content[0].text:"I apologise, James — there seems to be a brief connection issue. Please try again in a moment.";
+// ── Intelligent response engine (keyword-based, fully contextual) ──
+function getReply(input, type) {
+  const t = input.toLowerCase();
+
+  // FLIGHTS
+  if(type==='flights'||t.includes('flight')||t.includes('jet')||t.includes('fly')||t.includes('aviation')||t.includes('cdg')||t.includes('charter')) {
+    if(t.includes('london')||t.includes('lhr')||t.includes('farnborough')) return ["Of course. I have a Cessna Citation XLS available departing CDG at 09:15 tomorrow, arriving London Farnborough at 10:05 — 50 minutes in the air. Shall I confirm the booking, and would you like a chauffeur arranged on arrival?"];
+    if(t.includes('monaco')||t.includes('nice')||t.includes('côte')||t.includes('riviera')) return ["Excellent choice. A Pilatus PC-12 departs Le Bourget this Saturday at 10:30, arriving Nice at 11:40, with a helicopter transfer directly to Monaco Héliport. Total journey under 2 hours, all-in at €8,500. Shall I proceed?"];
+    if(t.includes('new york')||t.includes('jfk')||t.includes('nyc')) return ["I can arrange La Première on Air France — CDG to JFK, departing at 10:30, with a private suite, flat bed, and Champagne service. Alternatively, I can look into a private charter to Teterboro. What date are you considering?"];
+    if(t.includes('charter')||t.includes('private jet')||t.includes('jet privé')) return ["Of course. Our partners include NetJets, VistaJet, and Air Charter Service, offering aircraft from light jets to the Gulfstream G700. Could you share your route and travel date so I can prepare the best options for you?"];
+    if(t.includes('first class')||t.includes('business')) return ["Certainly. I can arrange Business Premier on Eurostar, or first class on Air France, British Airways, or Lufthansa depending on your destination. Where are you headed, and when?"];
+    return ["I would be happy to arrange that. Could you confirm your departure city, destination, and preferred date? I will have a curated selection of options ready for you within minutes."];
+  }
+
+  // HOTELS
+  if(type==='hotels'||t.includes('hotel')||t.includes('suite')||t.includes('villa')||t.includes('stay')||t.includes('room')||t.includes('accommodation')) {
+    if(t.includes('paris')) return ["For Paris I would suggest the Royal Suite at Hôtel de Crillon, the Imperial Suite at Le Bristol, or the Coco Chanel Suite at The Ritz. All are available this week. Do you have a preference, or shall I recommend based on your recent stays?"];
+    if(t.includes('london')) return ["For London, The Connaught in Mayfair would be my first recommendation — the Carlos Place Suite is available next weekend. Claridge's and The Lanesborough are also excellent alternatives. Which style appeals to you?"];
+    if(t.includes('monaco')||t.includes('côte')||t.includes('nice')||t.includes('riviera')||t.includes('cap-ferrat')||t.includes('antibes')) return ["I have a stunning 6-bedroom estate in Cap-Ferrat available — private pool, sea views, full staff including a private chef. A boat for day trips can also be arranged. Would you like to see alternatives in Èze or Ramatuelle as well?"];
+    if(t.includes('surprise')||t.includes('recommend')||t.includes('suggestion')) return ["Based on your travel history and the current season, I would suggest either the Amalfi Coast — at its very finest right now — or a long weekend in Marrakech at La Mamounia. Which direction calls to you?"];
+    return ["I would love to find the perfect property for you. Could you share the destination and your preferred dates so I can check availability across our partner portfolio?"];
+  }
+
+  // DINING
+  if(type==='dining'||t.includes('restaurant')||t.includes('dinner')||t.includes('lunch')||t.includes('dining')||t.includes('table')||t.includes('reservation')||t.includes('michelin')) {
+    if(t.includes('romantic')||t.includes('two')||t.includes('deux')) return ["For a truly memorable evening, I would suggest the private dining room at Lasserre — the legendary retractable ceiling opens to the Paris sky — or the rooftop at Kei for a more contemporary, intimate atmosphere. Shall I secure a table for this evening?"];
+    if(t.includes('business')||t.includes('client')||t.includes('6')||t.includes('six')) return ["For a private and impressive setting, I recommend a private room at Taillevent or the executive lunch at the Peninsula Paris — both accommodate your group with discretion. I can also arrange individual menus and car service for each guest."];
+    if(t.includes('wine')||t.includes('sommelier')) return ["The sommelier's table at Taillevent is exceptional — seven wines from the historic cave paired with a bespoke menu created that morning. It is one of the most refined dining experiences in Paris. Shall I secure it for you?"];
+    if(t.includes('tonight')||t.includes('this evening')||t.includes('ce soir')) return ["I have availability tonight at Le Grand Véfour (3 Michelin stars), Épicure at Le Bristol (3 stars), and Le Cinq at the George V (3 stars). Do you have a preference, and for how many guests?"];
+    return ["Of course. Could you tell me which city, your preferred time, and the number of guests? I will secure the finest available table immediately."];
+  }
+
+  // TRANSPORT
+  if(type==='transport'||t.includes('chauffeur')||t.includes('car')||t.includes('driver')||t.includes('helicopter')||t.includes('transfer')||t.includes('transport')||t.includes('eurostar')||t.includes('speedboat')) {
+    if(t.includes('chauffeur')||t.includes('car')||t.includes('driver')||t.includes('immediately')||t.includes('now')) return ["Your driver Henri is available and can be at your location in 8 minutes — a Mercedes S-Class. May I confirm your current address and destination?"];
+    if(t.includes('helicopter')) return ["I can arrange a helicopter transfer from Paris to Nice in 3h15, or shorter hops across the Riviera in under 20 minutes. What is your route and preferred departure time?"];
+    if(t.includes('eurostar')||t.includes('london')||t.includes('train')) return ["Business Premier departures to London St Pancras leave at 09:13, 12:13, and 16:13 from Gare du Nord. Shall I reserve your usual window seat in carriage 1?"];
+    if(t.includes('speedboat')||t.includes('boat')||t.includes('riviera')) return ["I can arrange a high-speed transfer between any Riviera ports — Cannes to Monaco takes just 35 minutes by private RIB. What is your departure point and destination?"];
+    return ["Of course. Could you share your pickup location, destination, and preferred time? I will arrange the most suitable option from our fleet."];
+  }
+
+  // EVENTS
+  if(type==='events'||t.includes('event')||t.includes('cannes')||t.includes('monaco')||t.includes('fashion')||t.includes('gala')||t.includes('vip')||t.includes('festival')) {
+    if(t.includes('cannes')) return ["I can arrange full VIP accreditation for the Cannes Film Festival (May 13–24) — red carpet access, invitation to the closing gala, and a private yacht berth in the old port. Hotel at Cap-Eden-Roc can also be included. Shall I proceed?"];
+    if(t.includes('monaco')||t.includes('grand prix')||t.includes('f1')) return ["I have a terrace hospitality suite available at the Casino corner for the Monaco Grand Prix on May 25 — the finest viewing point on the circuit, with Champagne service, gourmet lunch, and paddock access. Shall I confirm?"];
+    if(t.includes('fashion')||t.includes('dior')||t.includes('chanel')||t.includes('front row')) return ["I can arrange front row for Chanel and Dior Haute Couture in July, along with invitations to private after-parties and showroom previews. Would you like me to add the Dior private dinner at Musée Rodin as well?"];
+    if(t.includes('art')||t.includes('gala')||t.includes('exhibition')) return ["I have a private invitation-only view at Gagosian Paris this Thursday — a 40-person event with a curator walk-through of a new Basquiat exhibition. Car at 6:45 PM from your address. Shall I put you on the list?"];
+    return ["Of course. We have access to exclusive events in Monaco, Cannes, Paris, and beyond. Could you tell me what type of experience you are looking for and your preferred dates?"];
+  }
+
+  // PRIVATE EVENTS
+  if(type==='pev'||t.includes('birthday')||t.includes('proposal')||t.includes('corporate')||t.includes('celebration')||t.includes('private event')||t.includes('musician')||t.includes('concert')) {
+    if(t.includes('proposal')||t.includes('marry')||t.includes('ring')||t.includes('engagement')) return ["What a beautiful occasion — I will make this perfect. I can arrange a private table on the first floor of the Eiffel Tower at sunset, with white peonies, Champagne, and a violinist playing your chosen piece. A moment she will never forget. Shall I proceed?"];
+    if(t.includes('birthday')||t.includes('celebration')) return ["I can organise an exclusive evening at Château de Vaux-le-Vicomte — private access, a 7-course dinner by a private chef, candlelit gardens, and a live jazz quartet. Alternatively, a private rooftop in Paris with panoramic views. Which style do you prefer?"];
+    if(t.includes('corporate')||t.includes('client')||t.includes('business dinner')) return ["For an impressive client dinner, I recommend a private room at Taillevent or an exclusive evening at the Musée d'Orsay after hours. How many guests are you expecting, and do you have a date in mind?"];
+    if(t.includes('musician')||t.includes('concert')||t.includes('piano')||t.includes('jazz')) return ["I can arrange a solo pianist for an intimate dinner, a string quartet, or a private session with a celebrated jazz artist in a venue of your choice. What is the occasion and setting?"];
+    return ["I would love to help organise this. Could you share a few more details — the type of occasion, the number of guests, and your preferred date?"];
+  }
+
+  // SHOPPING
+  if(type==='shopping'||t.includes('shopping')||t.includes('stylist')||t.includes('watch')||t.includes('jewellery')||t.includes('jewelry')||t.includes('gift')||t.includes('hermes')||t.includes('dior')||t.includes('cartier')) {
+    if(t.includes('stylist')||t.includes('styling')||t.includes('clothes')||t.includes('wardrobe')) return ["I can arrange a private styling appointment at Dior, Hermès, or Brunello Cucinelli on Avenue Montaigne — exclusive access, no other clients, dedicated advisor, Champagne in the private salon. Which house appeals to you?"];
+    if(t.includes('watch')||t.includes('patek')||t.includes('rolex')||t.includes('audemars')) return ["I can arrange a private viewing at Patek Philippe on Place Vendôme — three pieces matching your criteria presented exclusively, with no commitment required. When would suit you?"];
+    if(t.includes('jewellery')||t.includes('jewelry')||t.includes('ring')||t.includes('necklace')) return ["For fine jewellery I suggest an after-hours private viewing at Van Cleef & Arpels or Cartier on Place Vendôme. The salon will be exclusively for you. What is the occasion?"];
+    if(t.includes('gift')) return ["I would love to help. Could you tell me a little about this person — their style, interests, and the occasion? With that context I can suggest something truly meaningful."];
+    return ["Of course. Could you tell me a little more about what you are looking for — a specific brand, a category, or perhaps a gift for someone special?"];
+  }
+
+  // WELLNESS
+  if(type==='wellness'||t.includes('spa')||t.includes('wellness')||t.includes('massage')||t.includes('yoga')||t.includes('retreat')||t.includes('trainer')||t.includes('meditation')) {
+    if(t.includes('spa')||t.includes('today')||t.includes('paris')) return ["I can arrange a full spa day at the Dior Institut at the Plaza Athénée — a 90-minute La Collection Privée facial, full body treatment, and thermal pool access. Available this afternoon at 2:00 PM. Shall I confirm?"];
+    if(t.includes('retreat')||t.includes('weekend')||t.includes('detox')) return ["I would suggest Terre Blanche Spa in Provence — a two-night programme with thermal circuit, osteopathy, signature massage, and organic dinners by the in-house nutritionist. Arrival Friday evening. Shall I arrange?"];
+    if(t.includes('trainer')||t.includes('fitness')||t.includes('workout')) return ["I can arrange a private session with trainer Mathieu — certified in functional fitness — tomorrow at 7:00 AM in your hotel gym. A protein breakfast will be prepared in your suite afterwards. Shall I make this a weekly arrangement?"];
+    if(t.includes('yoga')||t.includes('meditation')||t.includes('breathwork')) return ["I can arrange a private yin yoga session with instructor Léa tomorrow at 8:00 AM on your suite terrace. She will tailor the session to your energy on the day. Herbal tea prepared beforehand. Shall I confirm?"];
+    return ["Of course. Could you tell me what kind of experience you are looking for — a treatment today, a full retreat, or something more active like a personal training session?"];
+  }
+
+  // YACHT
+  if(type==='yacht'||t.includes('yacht')||t.includes('sailing')||t.includes('boat')||t.includes('charter')||t.includes('villa')) {
+    if(t.includes('weekend')||t.includes('mediterranean')||t.includes('med')) return ["I have a 35m Ferretti available in Cannes this weekend — captain, full crew, private chef, and a route covering the Lérins Islands and Monaco included. Shall I reserve it for you?"];
+    if(t.includes('villa')) return ["I have a stunning 7-bedroom estate in Cap-Ferrat with infinity pool, private dock, and full staff available this week. A boat for day trips is included. Would you like to see alternatives on the Riviera?"];
+    if(t.includes('day trip')||t.includes('day out')) return ["A 12m Riva Aquarama is available — a true icon of Mediterranean elegance. Skipper and a picnic lunch by a local chef included. What date and departure port works for you?"];
+    if(t.includes('sailing')||t.includes('ketch')||t.includes('calanques')) return ["I have a magnificent 22m classic wooden ketch from Marseille — ideal for 2 to 3 days through the Calanques, with skipper, chef, and all equipment. Shall I build a full itinerary?"];
+    return ["Of course. Could you share the destination, your preferred dates, and roughly how many guests? I will find the perfect option from our partner fleet."];
+  }
+
+  // GENERAL / FALLBACK — context-aware
+  const fallbacks = [
+    "Of course, James. Could you share a few more details so I can arrange this perfectly for you — date, location, and any specific preferences?",
+    "Understood. I will look into that right away. Is there anything specific you would like me to keep in mind — a particular preference, a budget, or a timing constraint?",
+    "Certainly. I am on it. To make sure I find exactly the right option, could you tell me a little more about what you have in mind?",
+    "Leave it with me, James. I will coordinate with our partners and come back to you with the best available options very shortly. Any particular preferences I should factor in?"
+  ];
+  return [fallbacks[Math.floor(Math.random()*fallbacks.length)]];
 }
 
-function setLoading(on){
-  BUSY=on;
-  const inp=document.getElementById('ci');
-  const btn=document.getElementById('sndBtn');
-  inp.disabled=on;
-  btn.disabled=on;
+// ── UI helpers ──
+function setUI(disabled){
+  BUSY=disabled;
+  document.getElementById('ci').disabled=disabled;
+  document.getElementById('sndBtn').disabled=disabled;
 }
 
-function addC(txt,isTyping=false){
+function addC(txt,typing=false){
   const a=document.getElementById('ca');
   const d=document.createElement('div');
   d.className='bub bc';
-  if(isTyping){
-    d.innerHTML='<div class="bs">Velora Concierge</div><div class="td"><span></span><span></span><span></span></div>';
-  } else {
-    d.innerHTML='<div class="bs">Velora Concierge</div>'+txt;
-  }
-  a.appendChild(d);
-  a.scrollTop=a.scrollHeight;
+  d.innerHTML=typing
+    ?'<div class="bs">Velora Concierge</div><div class="td"><span></span><span></span><span></span></div>'
+    :'<div class="bs">Velora Concierge</div>'+txt;
+  a.appendChild(d);a.scrollTop=a.scrollHeight;
   return d;
 }
 
@@ -519,28 +552,26 @@ function addU(txt){
   const d=document.createElement('div');
   d.className='bub bu';
   d.innerHTML='<div class="bs bsu">You</div>'+txt;
-  a.appendChild(d);
-  a.scrollTop=a.scrollHeight;
+  a.appendChild(d);a.scrollTop=a.scrollHeight;
 }
 
-async function sendToAPI(userText){
+// ── Send logic — one message at a time ──
+let CURTYPE='general';
+
+function sendToSophie(txt){
   document.getElementById('qrs').style.display='none';
-  addU(userText);
-  HISTORY.push({role:'user',content:userText});
-  setLoading(true);
-  const typingBubble=addC('',true);
-  try{
-    const reply=await callAPI(HISTORY);
-    typingBubble.innerHTML='<div class="bs">Velora Concierge</div>'+reply;
+  addU(txt);
+  setUI(true);
+  const bubble=addC('',true);
+  const delay=900+Math.random()*600;
+  setTimeout(()=>{
+    const replies=getReply(txt,CURTYPE);
+    bubble.innerHTML='<div class="bs">Velora Concierge</div>'+replies[0];
     document.getElementById('ca').scrollTop=document.getElementById('ca').scrollHeight;
-    HISTORY.push({role:'assistant',content:reply});
-  } catch(e){
-    typingBubble.innerHTML='<div class="bs">Velora Concierge</div>I apologise, James — there seems to be a brief connection issue. Please try again.';
-  }
-  setLoading(false);
+    setUI(false);
+    document.getElementById('ci').focus();
+  },delay);
 }
-
-function sendQ(txt){ sendToAPI(txt); }
 
 function snd(){
   if(BUSY)return;
@@ -548,32 +579,24 @@ function snd(){
   const txt=inp.value.trim();
   if(!txt)return;
   inp.value='';
-  sendToAPI(txt);
+  sendToSophie(txt);
 }
 
-async function chat(type,label,icon){
+function chat(type,label,icon){
   BT=type==='general'?'home':'services';
-  HISTORY=[];
+  CURTYPE=type;
   document.getElementById('ca').innerHTML='';
   const qrs=document.getElementById('qrs');
   qrs.innerHTML='';qrs.style.display='flex';
   const ctx=document.getElementById('ctx');
   if(icon&&label){ctx.style.display='flex';document.getElementById('cxi').textContent=icon;document.getElementById('cxs').textContent=label;}
-  else{ctx.style.display='none';}
+  else ctx.style.display='none';
   go('request');
-
-  // Show greeting from system context (no API call needed for first message)
-  const greet=CTXGREET[type]||CTXGREET.general;
-  addC(greet);
-  HISTORY.push({role:'assistant',content:greet});
-
-  // Add quick reply buttons
-  const qrList=QRS[type]||QRS.general;
-  qrList.forEach(r=>{
-    const b=document.createElement('button');
-    b.className='qr';
-    b.textContent=r.l;
-    b.onclick=()=>sendQ(r.t);
+  setUI(false);
+  addC(GREET[type]||GREET.general);
+  (QRS[type]||QRS.general).forEach(r=>{
+    const b=document.createElement('button');b.className='qr';b.textContent=r.l;
+    b.onclick=()=>sendToSophie(r.t);
     qrs.appendChild(b);
   });
 }
